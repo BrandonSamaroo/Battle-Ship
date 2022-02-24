@@ -4,11 +4,11 @@ sink your opponents battleships before they sink yours!
 
 ☐ Screenshots:
 
-![alt text][img]
+![a screenshot of the game][img]
 
 [img]: https://git.generalassemb.ly/brandonsamaroo/BattleShip/blob/master/assets/BattleShipScreenshot1.PNG "Game Screenshot"
 
-![alt text][img2]
+![a screenshot of the game][img2]
 
 [img2]: https://git.generalassemb.ly/brandonsamaroo/BattleShip/blob/master/assets/BattleShipScreenshot2.PNG "Game Screenshot"
 
