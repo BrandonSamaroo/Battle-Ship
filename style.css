@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+}
+
+main
+{
+    height: 105vh;
+    background-image: url(https://i.postimg.cc/wMpPpqH2/water-pool-texture-seamless-and-free.jpg);
+    opacity: 1;
+    background-color: aliceblue;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10%;
+    height: 15px;
+    background: rgba(0, 0, 0, .5);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .slider:hover {
+    opacity: 1;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 20px;
+    background: black;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: black;
+    cursor: pointer;
+  }
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 7vh;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+input
+{
+    margin-left: 10px;
+    width: 3vh;
+    height: 3vh;
+}
+
+.display-player-grid
+{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 1%;
+
+}
+
+.display-player
+{
+    padding-right: 20%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5vh;
+}
+.display-ai
+{
+    padding-left: 15%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5vh;
+}
+
+.game-board
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.grid-container
+{
+    min-width: 45vh;
+    min-height: 45vh;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    cursor: pointer;
+}
+
+.dock-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.dock
+{
+    min-width: 20vh;
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding-bottom: 3%;
+}
+
+.dock-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(173, 216, 230, .8);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.grid-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(173, 230, 255, .8);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.buttonContainer
+{
+    display: flex;
+    justify-content:center;
+    padding: 1% 0 0% 0%;
+}
+
+button
+{
+    margin: 5px;
+    font-family: 'Amatic SC', cursive;
+    background-color: grey;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+
+.display-message
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    width: 7%;
+    font-size: 5vh;
+}
+
+.boat-piece
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.isHovered
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: .1px solid rgba(0, 0, 0, 0.4);
+}
+
+.placedBoatPlayer
+{
+    pointer-events: none;
+}
+
+.spotHit
+{
+    color: red;
+    opacity: 1;
+}
+
+.spotMiss
+{
+    color: white;
+    opacity: 1;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Ship </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main>
+        <section class="logo">BATTLESHIP
+        <input class="toggle-music" type="image" src="assets/audio-icon-muted.png"> 
+        <input type="range" min="0" max="1" value=".1" step=".1" class="slider" id="volume" width='3vh' height = '3vh'>
+        </section>
+        <section class ="display-player-grid">
+            <div class="display-player">Player</div>
+            <div class="display-ai">AI</div>
+        </section>
+        <section class="game-board">
+            <div class="grid-container player-board"></div>
+            <div class="display-message">Drag Boats Onto Player Board</div>
+            <div class="grid-container ai-board"></div>
+        </section>
+        <section class="buttonContainer">
+            <button type="button" class="reset-game">Reset Game</button>
+            <button type="button" class="rotate-ship">Rotate Ship</button>
+        </section>
+        <section class="dock-container">
+            <div class="dock"></section>
+        </section>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
