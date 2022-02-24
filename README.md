@@ -15,6 +15,6 @@ sink your opponents battleships before they sink yours!
 
 ☐ Technologies Used: Javascript, HTML, CSS
 
-☐ Link To Game: 
+☐ Link To Game: https://brandonsamaroo.github.io/Battle-Ship/
 
 ☐ Next Steps: Tune ai to be more intelligent, add a home screen, add a toolbar at the top to toggle music instead of using the mute button
