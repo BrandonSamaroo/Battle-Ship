@@ -17,4 +17,4 @@ sink your opponents battleships before they sink yours!
 
 ☐ Link To Game: https://brandonsamaroo.github.io/Battle-Ship/
 
-☐ Next Steps: Tune ai to be more intelligent, add a home screen, add a toolbar at the top to toggle music instead of using the mute button
+☐ Next Steps: Tune ai to be more intelligent, add a home screen, add a toolbar at the top to toggle music instead of using the mute button, fix reset button, make page responsive
